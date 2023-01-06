@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+.container{
+    width:455px;
+    height:730px;
+    background-image:url('https://i.postimg.cc/DzrTCsg8/1116905.webp');
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-top: 40px;
+    text-align: center;
+}
+#email,#pswd,#place,#qualification,#uname{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.login{
+    padding-left:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   background-color: #f0e9f2;
+}
+#email,#pswd,#place,#qualification,#uname{
+    background-image: url('https://i.postimg.cc/50QtNjqJ/abstract-geometric-white-background-free-vector.jpg');
+}
+.bank1{
+    width: 10PX;
+    height: 10PX;
+}
+
+body{
+    background-image: url('https://i.postimg.cc/hPMcL44G/istockphoto-1148960878-612x612.jpg');
+    background-size: cover;
+}
+
+
+
+
+

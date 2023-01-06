@@ -1,0 +1,109 @@
+<button class="btn btn-warning" style="float: right;" (click)="logout()">Logout</button>
+<button class="btn btn-danger" style="float: right;" (click)="delete()">Delete</button>
+
+<marquee behavior="scroll" direction="right" scrollamount="15">
+    <h1 style="color:brown"><b>HAI {{user}}  WELCOME TO LUMINAR TECHNOLAB</b></h1>
+</marquee>
+<h4>System Date and Time:{{sdate | date:'short'}}</h4>
+<app-delete [item]="email" (onCancel)="onCancel()"></app-delete>
+<div class="container1">
+    <div class="card1"  style="width: 18rem;" [ngClass]="email? 'style1':''">
+        <img src="../../assets/images/mearn.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>MEA(R)N Stack Web Development Expert - Angular & React</b></h5>
+          <p class="card-text"><b>HTML, CSS, Bootstrap, Javascript, Typescript, Git, Angular, React.js, Node.js, Express.js & MongoDB</b>.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cochin</li>
+          <li class="list-group-item">Duration- 4 months</li>
+          <li class="list-group-item">Course fee- 41500</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">View more</a>
+        </div>
+      </div>
+      <div class="card2"  style="width: 18rem;"[ngClass]="email? 'style1':''">
+        <img src="../../assets/images/software testing.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>Software Testing Specialist</b></h5>
+          <p class="card-text"><b>Manual Testing , Java foundations, Mobile Testing, Automation Testing, Selenium IDE, Selenium Web driver, Selenium Advanced</b>.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cochin</li>
+          <li class="list-group-item">Duration- 4 months</li>
+          <li class="list-group-item">Course fee- 31500</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">View more</a>
+         
+        </div>
+      </div>
+      <div class="card3"  style="width: 18rem;"[ngClass]="email? 'style1':''">
+        <img src="../../assets/images/Big-Data-.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>Data Science and Big Data Analytics</b></h5>
+          <p class="card-text"><b>Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts, Machine Learning, Deep Learning,</b></p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> Cochin</li>
+          <li class="list-group-item">Duration- 6 months</li>
+          <li class="list-group-item">Course fee-61000</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">View more</a>
+          
+        </div>
+      </div>
+    </div>
+      <div class="container2"[ngClass]="email? 'style1':''">
+      <div class="card4" style="width: 18rem;"[ngClass]="email? 'style1':''">
+        <img src="../../assets/images/python.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><b>Python Django - Angular- Full Stack Web Development Expert</b></h5>
+          <p class="card-text"><b>Core Python, Basics of Programming, Unix Commands, Advanced Python, Django Framework, REST API, Git, Angular, Web</b></p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cochin</li>
+          <li class="list-group-item">Duration- 5 months</li>
+          <li class="list-group-item">Course fee-35000</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">View more</a>
+          
+        </div>
+      </div>
+        <div class="card5"  style="width: 18rem;"[ngClass]="email? 'style1':''">
+          <img src="../../assets/images/asp.net-logo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><b>Asp.net MVC with Angular - Full Stack</b></h5>
+            <p class="card-text"><b>C# Programming, Object Oriented Development, ASP .Net Web and Windows Application Development, MS SQL, MVC</b></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Cochin</li>
+            <li class="list-group-item">Duration- 4 months</li>
+            <li class="list-group-item">Course fee-29500</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">View more</a>
+            
+          </div>
+        </div>
+            <div class="card6"  style="width: 18rem;"[ngClass]="email? 'style1':''">
+              <img src="../../assets/images/_Flutter app development.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Android Developer Expert Training In Kochi- Flutter</b></h5>
+                <p class="card-text"><b>Dart, Flutter Introduction to Android, Android Studio, AndroidManifest.xml, Directories, Layout Designing, Basics & Intents, UI</b></p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cochin</li>
+                <li class="list-group-item">Duration- 4 months</li>
+                <li class="list-group-item">Course fee-29500</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">View more</a>
+              </div>
+            </div>
+    </div>
+      
+    
+    

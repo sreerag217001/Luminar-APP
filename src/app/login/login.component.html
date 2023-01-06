@@ -1,0 +1,27 @@
+<body>
+    <form [formGroup]="loginForm">
+<div>
+    
+    <div class="container">
+            <div class="center">
+    <img src="../../assets/images/images (1).jpeg" alt="">
+    <h1>LuminarTechnolab</h1><br>
+    <h4 style="color:crimson">{{aim}}</h4>
+  
+    <input formControlName="email" type="text" id="email" [placeholder]="Email">
+    <div *ngIf="this.loginForm.get('email')?.errors && this.loginForm.get('email')?.touched" style="color:red">Invalid User</div>
+    <br><br>
+    <input formControlName="pswd" type="text" id="pswd" [placeholder]="password">
+    <div *ngIf="this.loginForm.get('pswd')?.errors && this.loginForm.get('pswd')?.touched" style="color:red">Invalid User</div>
+    <br><br>
+    
+ 
+    <input class="login" type="button" value="Login" (click)="login()" class="btn-btn-success mt-4">
+    <br><br>
+    <a href="password">forget password</a><br><br>
+    <a routerLink="register">Sign up</a>
+</div>
+    </div>
+</div>
+</form>
+</body>
